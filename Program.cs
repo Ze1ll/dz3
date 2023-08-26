@@ -34,6 +34,7 @@ class Program
                 }
                 break ;
                 case 3: //Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран. 
+
                 {
                     int[] nums = new int[8] ;
                     Random random = new Random();
@@ -51,6 +52,17 @@ class Program
                     Console.WriteLine("]");
 
                 }
+                /* 
+                 * int[] nums = new int[8] ;
+                    Random random = new Random();
+                    Console.Write("[");
+                    for (int i=0; i<nums.Length; i++)
+				    {
+                        nums[i] = random.Next(50);
+                       Console.Write($"{ nums[i]}, ");
+				    }
+                    Console.WriteLine("]");
+                 */
                 break;
         }
 
